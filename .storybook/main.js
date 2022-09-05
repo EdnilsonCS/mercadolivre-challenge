@@ -10,7 +10,8 @@ module.exports = {
     "storybook-addon-next"
   ],
   "framework": "@storybook/react",
+  "staticDirs": ["../public"],
   "core": {
     "builder": "@storybook/builder-webpack5"
-  }
+  },
 }
