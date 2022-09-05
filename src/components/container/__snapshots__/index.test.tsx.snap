@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for container component should match snapshot in default style 1`] = `
+<div>
+  <div>
+    <div
+      style="background: red;"
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
