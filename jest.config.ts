@@ -10,7 +10,9 @@ export default {
     '^.+\\.tsx?$': 'ts-jest',
   },
   testMatch: ['**/*.test.(ts|tsx)'],
+  modulePathIgnorePatterns: ['<rootDir>/node_modules', '<rootDir>/__tests__/mocks', '<rootDir>/public'],
   moduleNameMapper: {
     '\\.(gif|ttf|eot|svg|png|jpg)$': '<rootDir>/__test__/mocks/file.tsx',
+    '\\.(css|scss)$': '<rootDir>/__test__/mocks/styleMock.ts',
   },
 };
