@@ -2,7 +2,9 @@
 
 exports[`Test for card component should match snapshot in default style 1`] = `
 <div>
-  <div>
+  <div
+    data-testid="card-teste-id"
+  >
     <div>
       <button
         data-testid="button-image"

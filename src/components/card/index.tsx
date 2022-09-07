@@ -7,7 +7,7 @@ const Card: FC<ICardProps> = ({
   title, value, location, imageUrl, onClick,
 }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid="card-teste-id">
       <div className={styles.imageLogo}>
         <button type="button" onClick={onClick} className={styles.noButtonStyles} data-testid="button-image">
           <Image objectFit="cover" src={imageUrl} width="180px" height="180px" />
