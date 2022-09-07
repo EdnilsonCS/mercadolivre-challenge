@@ -1,0 +1,74 @@
+.container{
+  padding: 32px;
+}
+
+.imageLogo {
+  display: flex;
+  align-self: center;
+}
+
+.content {
+  display: flex;
+}
+
+.contentValues {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  flex-grow: 1;
+
+  h2 { 
+    max-width: 200px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+    
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  button {
+    border: 0;
+    color: white;
+    background-color: #3483FA;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+.value {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333333;
+
+  @media (min-width: 768px) {
+    font-size: 46px;
+  }
+}
+
+.quantitySoldOut {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.contentInformation {
+  margin-top: 100px;
+
+  span {
+    font-size: 28px;
+    color: #333333;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 32px;
+    color: #999999;
+    font-size: 16px;
+    max-width: 640px;
+  }
+}

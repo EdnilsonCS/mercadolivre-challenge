@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for search input component should match snapshot in default style 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <img
+          alt="Title Value"
+          height="680px"
+          src="/Logo_ML.png"
+          width="680px"
+        />
+      </div>
+      <div>
+        <span>
+          new
+           
+          -
+           
+          240
+           
+          vendidos
+        </span>
+        <h2>
+          Title Value
+        </h2>
+        <span>
+          value text
+        </span>
+        <button
+          type="button"
+        >
+          Comprar
+        </button>
+      </div>
+    </div>
+    <div>
+      <span>
+        Descripción del producto
+      </span>
+      <p>
+        description
+      </p>
+    </div>
+  </div>
+</div>
+`;
