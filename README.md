@@ -2,7 +2,7 @@
 # Desafio Mercado Pago
 
 O desafio consistia em criar uma versão reduzida do mercado livre. 
-Com pagná de pesquisa e detalhes sobre o produto.
+Com pesquisa e detalhes sobre dos produto.
 
 
 
