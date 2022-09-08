@@ -23,7 +23,11 @@ const ItemPage: FC<IItemPageProps> = ({
             vendidos
           </span>
           <h2>{title}</h2>
-          <span className={styles.value}>{value}</span>
+          <span className={styles.value}>
+            $
+            {' '}
+            {value}
+          </span>
 
           <button type="button">Comprar</button>
         </div>

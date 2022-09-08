@@ -37,6 +37,8 @@ exports[`Test for search input component should match snapshot in default style 
       <div>
         <div>
           <span>
+            $
+             
             value text
           </span>
           <span
@@ -108,6 +110,8 @@ exports[`Test for search input component should match snapshot in default style 
       <div>
         <div>
           <span>
+            $
+             
             value text
           </span>
           <span
@@ -179,6 +183,8 @@ exports[`Test for search input component should match snapshot in default style 
       <div>
         <div>
           <span>
+            $
+             
             value text
           </span>
           <span
@@ -250,6 +256,8 @@ exports[`Test for search input component should match snapshot in default style 
       <div>
         <div>
           <span>
+            $
+             
             value text
           </span>
           <span

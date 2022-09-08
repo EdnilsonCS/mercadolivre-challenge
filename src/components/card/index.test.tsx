@@ -27,7 +27,7 @@ describe('Test for card component', () => {
   it('should have a value text', () => {
     render(<CardDefault />);
 
-    const findText = screen.getByText('value text');
+    const findText = screen.getByText('$ value text');
 
     expect(findText).toBeTruthy();
   });

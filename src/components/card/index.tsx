@@ -16,7 +16,11 @@ const Card: FC<ICardProps> = ({
 
       <div className={styles.contentInformation}>
         <div>
-          <span>{value}</span>
+          <span>
+            $
+            {' '}
+            {value}
+          </span>
           <Image src="/ic_shipping.png" width="18px" height="18px" alt={title} />
         </div>
         <button type="button" onClick={onClick} className={styles.noButtonStyles}>

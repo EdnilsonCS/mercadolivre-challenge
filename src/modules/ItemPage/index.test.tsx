@@ -51,4 +51,11 @@ describe('Test for search input component', () => {
     const findTitle = screen.getByText('description');
     expect(findTitle).toBeTruthy();
   });
+
+  it('should have a value in component', () => {
+    render(<ItemPageDefault />);
+
+    const findTitle = screen.getByText('$ value text');
+    expect(findTitle).toBeTruthy();
+  });
 });
