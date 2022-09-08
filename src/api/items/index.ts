@@ -2,7 +2,7 @@ import api from '../index';
 import { IGetSearchList } from './index.types';
 
 export const getSearchList = async (search: string) => {
-  const data = await api.get<IGetSearchList>(`/sites/MLA/search?q=${search}`);
+  const data = await api.get<IGetSearchList>(`/sites/MLA/search?q=${search}&limit=4`);
 
   const itemsList = data.data.results.map((item) => {
     return ({
