@@ -23,6 +23,7 @@ ItemsPageDefault.args = {
       value: 'value text',
       location: 'Capital Federal',
       imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_846738-MLA47781264197_102021-O.webp',
+      isFullShipping: false,
     },
     {
       id: '2',
@@ -30,6 +31,7 @@ ItemsPageDefault.args = {
       value: 'value text',
       location: 'Capital Federal',
       imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_846738-MLA47781264197_102021-O.webp',
+      isFullShipping: false,
     },
     {
       id: '3',
@@ -37,6 +39,7 @@ ItemsPageDefault.args = {
       value: 'value text',
       location: 'Capital Federal',
       imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_846738-MLA47781264197_102021-O.webp',
+      isFullShipping: false,
     },
     {
       id: '4',
@@ -44,6 +47,7 @@ ItemsPageDefault.args = {
       value: 'value text',
       location: 'Capital Federal',
       imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_846738-MLA47781264197_102021-O.webp',
+      isFullShipping: false,
     },
   ],
 };

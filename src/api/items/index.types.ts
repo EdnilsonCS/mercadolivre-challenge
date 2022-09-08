@@ -5,6 +5,9 @@ export interface ItemResult {
   address: {
     state_name: string
   }
+  shipping : {
+    logistic_type: 'xd_drop_off' | 'cross_docking' | 'self_service' | 'fulfillment'
+  }
   thumbnail: string
 }
 
@@ -18,6 +21,7 @@ export type IGetSearchListResponse = {
   value: string,
   location:string,
   imageUrl:string,
+  isFullShipping: boolean;
 }[];
 
 export interface IGetItemResponse {

@@ -4,5 +4,6 @@ export interface ICardProps {
   value: string;
   location: string;
   imageUrl: string;
+  isFullShipping: boolean;
   onClick(): void
 }

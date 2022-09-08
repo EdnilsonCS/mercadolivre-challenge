@@ -22,4 +22,13 @@ CardDefault.args = {
   imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_846738-MLA47781264197_102021-O.webp',
 };
 
+export const CardIsFullShipping = Template.bind({});
+CardDefault.args = {
+  title: 'Title Value',
+  value: 'value text',
+  location: 'Capital Federal',
+  imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_846738-MLA47781264197_102021-O.webp',
+  isFullShipping: true,
+};
+
 export default meta;

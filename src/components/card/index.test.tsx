@@ -69,4 +69,12 @@ describe('Test for card component', () => {
 
     expect(onClickMock).toBeCalled();
   });
+
+  it('should have a message a icon if product is full shipping', () => {
+    render(<CardDefault />);
+
+    const findImage = screen.getByAltText('Entrega rápida');
+
+    expect(findImage).toBeTruthy();
+  });
 });

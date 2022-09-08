@@ -24,6 +24,7 @@ exports[`Test for card component should match snapshot in default style 1`] = `
             />
           </span>
           <img
+            alt="Title Value"
             data-nimg="intrinsic"
             decoding="async"
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -54,7 +55,7 @@ exports[`Test for card component should match snapshot in default style 1`] = `
             />
           </span>
           <img
-            alt="Title Value"
+            alt="Entrega rápida"
             data-nimg="intrinsic"
             decoding="async"
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"

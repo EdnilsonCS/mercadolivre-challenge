@@ -11,6 +11,7 @@ export const getSearchList = async (search: string) => {
       value: item.price,
       location: item.address.state_name,
       imageUrl: item.thumbnail,
+      isFullShipping: item.shipping?.logistic_type === 'fulfillment',
     });
   });
 
