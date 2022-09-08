@@ -2,7 +2,7 @@
 
 exports[`Test for search input component should match snapshot in default style 1`] = `
 <div>
-  <div>
+  <header>
     <div>
       <div>
         <div>
@@ -65,6 +65,6 @@ exports[`Test for search input component should match snapshot in default style 
         </form>
       </div>
     </div>
-  </div>
+  </header>
 </div>
 `;

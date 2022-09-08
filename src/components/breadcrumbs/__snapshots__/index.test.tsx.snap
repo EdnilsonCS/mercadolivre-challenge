@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for card component should match snapshot in default style 1`] = `
+<div>
+  <div>
+    <span>
+      Iphone &gt; Smarthphone &gt; 32GB
+    </span>
+  </div>
+</div>
+`;

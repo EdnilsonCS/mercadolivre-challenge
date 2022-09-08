@@ -5,7 +5,6 @@ exports[`Test for search input component should match snapshot in default style 
   <form>
     <input
       aria-label="Campo de busca"
-      id="inputWithoutLabel"
       placeholder="Placeholder"
       type="text"
     />
