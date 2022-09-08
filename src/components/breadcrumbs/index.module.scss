@@ -1,9 +1,11 @@
+@import "../../../src/styles/css/colors.scss";
+
 .container {
   padding-top: 16px;
   padding-bottom: 16px;
 
   span {
     font-size: 14px;
-    color: #666666
+    color: $black-light-color;
   }
 }

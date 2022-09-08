@@ -1,3 +1,5 @@
+@import "../../../src/styles/css/colors.scss";
+
 .container {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -5,10 +7,10 @@
   padding-right: 16px;
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: $white-color;
 
   & + div {
-    border-top: solid 1px #eeeeee;
+    border-top: solid 1px $gray-light-color;
   }
 }
 
@@ -52,7 +54,7 @@
   h2 { 
     max-width: 320px;
     font-size: 14px;
-    color: #333333;
+    color: $black-color;
     font-weight: 500;
     
     @media (min-width: 768px) {

@@ -1,6 +1,8 @@
+@import "./colors.scss";
+
 body {
-  background-color: #eeeeee;
-  color: #000;
+  background-color: $gray-light-color;
+  color: $black-color;
   font-size: 14;
   -webkit-font-smoothing: antialiased;
   line-height: 1;

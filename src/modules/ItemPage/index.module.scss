@@ -1,6 +1,8 @@
+@import "../../../src/styles/css/colors.scss";
+
 .container{
   padding: 32px;
-  background-color: white;
+  background-color: $white-color;
 }
 
 .imageLogo {
@@ -21,7 +23,7 @@
   h2 { 
     max-width: 200px;
     font-size: 18px;
-    color: #333333;
+    color: $black-color;
     font-weight: 500;
     
     @media (min-width: 768px) {
@@ -31,8 +33,8 @@
 
   button {
     border: 0;
-    color: white;
-    background-color: #3483FA;
+    color: $white-color;
+    background-color: $blue-color;
     height: 34px;
     font-size: 16px;
     border-radius: 5px;
@@ -45,7 +47,7 @@
   margin-bottom: 32px;
   font-size: 24px;
   font-weight: 500;
-  color: #333333;
+  color: $black-color;
 
   @media (min-width: 768px) {
     font-size: 46px;
@@ -62,13 +64,13 @@
 
   span {
     font-size: 28px;
-    color: #333333;
+    color: $black-color;
     font-weight: 500;
   }
 
   p {
     margin-top: 32px;
-    color: #999999;
+    color: $gray-color;
     font-size: 16px;
     max-width: 640px;
   }

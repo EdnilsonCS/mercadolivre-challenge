@@ -1,5 +1,8 @@
+@import "../../../src/styles/css/colors.scss";
+
+
 .container{
-  background-color: #ffe600;
+  background-color: $primary-color;
   padding-top: 10px;
   padding-bottom: 10px;
 }
