@@ -19,7 +19,6 @@ const Template: Story<ISearchInputProps> = (args) => {
 
 export const SearchInputDefault = Template.bind({});
 SearchInputDefault.args = {
-  id: 'inputWithoutLabel',
   placeholder: 'Placeholder',
 };
 

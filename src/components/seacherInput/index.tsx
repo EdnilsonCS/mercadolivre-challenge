@@ -10,14 +10,15 @@ const SearchInput: FC<ISearchInputProps> = ({
 }) => {
   const inputRef = useRef<(HTMLInputElement | null)>(null);
 
-  const handleSubmit = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     if (inputRef.current?.value) {
       onSearch(inputRef.current?.value);
     }
   };
 
   return (
-    <div className={styles.container}>
+    <form onSubmit={handleSubmit} className={styles.container}>
       <input
         ref={inputRef}
         type="text"
@@ -25,10 +26,10 @@ const SearchInput: FC<ISearchInputProps> = ({
         placeholder={placeholder}
         {...rest}
       />
-      <button type="button" onClick={handleSubmit} aria-label="Search">
+      <button type="submit" aria-label="Search">
         <Image src="/ic_Search.png" alt="Search Icon" width={20} height={20} />
       </button>
-    </div>
+    </form>
   );
 };
 

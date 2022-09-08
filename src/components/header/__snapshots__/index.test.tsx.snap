@@ -29,7 +29,7 @@ exports[`Test for search input component should match snapshot in default style 
             <noscript />
           </span>
         </div>
-        <div>
+        <form>
           <input
             aria-label="Campo de busca"
             placeholder="Nunca dejes de buscar"
@@ -37,7 +37,7 @@ exports[`Test for search input component should match snapshot in default style 
           />
           <button
             aria-label="Search"
-            type="button"
+            type="submit"
           >
             <span
               style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -62,7 +62,7 @@ exports[`Test for search input component should match snapshot in default style 
               <noscript />
             </span>
           </button>
-        </div>
+        </form>
       </div>
     </div>
   </div>

@@ -3,6 +3,7 @@ import { composeStories } from '@storybook/testing-react';
 import {
   render, fireEvent, screen,
 } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import * as stories from './index.stories';
 
 const {
@@ -42,6 +43,18 @@ describe('Test for search input component', () => {
     const findButton = screen.getByRole('button');
     fireEvent.click(findButton);
 
-    expect(onSearchMock).not.toBeCalledWith();
+    expect(onSearchMock).not.toHaveBeenCalled();
+  });
+
+  it('should call onSearch if user press "enter" inside the input field', () => {
+    const onSearchMock = jest.fn();
+    render(<SearchInputDefault onSearch={onSearchMock} />);
+
+    const findInput = screen.getByPlaceholderText('Placeholder');
+
+    fireEvent.change(findInput, { target: { value: 'teste value' } });
+    fireEvent.submit(findInput);
+
+    expect(onSearchMock).toHaveBeenCalled();
   });
 });
