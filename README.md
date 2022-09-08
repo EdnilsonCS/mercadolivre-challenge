@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Desafio Mercado Pago
 
-First, run the development server:
+O desafio consistia em criar uma versão reduzida do mercado livre. 
+Com pesquisa e detalhes sobre dos produto.
+
+
+
+
+## Executando o projeto
+
+To executar em moto de desenvolvimento
 
 ```bash
-npm run dev
-# or
-yarn dev
+  yarn start:dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Frontend:** React, Next.js, Typescript, Axios, Sass
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**Documentação:** Storybook
 
-## Learn More
+**Testes:** Jest, React testing library
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para poder verificar a documentação dos componentes usado no projeto favor executar o story book
 
-## Deploy on Vercel
+```bash
+  yarn start:storybook
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Testes
+
+Para testar o projeto foi utilizado jest em conjunto com a biblioteca React test library.
+
+* Para executar os testes
+```bash
+  yarn test
+```
+* Para executar os testes e atualizar os snapshots
+```bash
+  yarn test -u
+```
+
+
+## Screenshots
+![Home](https://user-images.githubusercontent.com/48322101/189203409-a92f12a7-bf69-45e8-afdc-711a2b7b7d8f.png)
+![Search](https://user-images.githubusercontent.com/48322101/189203453-ae8cf0d5-bcab-426f-8258-eeb7f0ee9a2f.png)
+![Detail](https://user-images.githubusercontent.com/48322101/189203640-e8288b48-60f6-4fee-baf5-0977837cff74.png)
+
+
