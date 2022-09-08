@@ -9,7 +9,7 @@ const Header: FC<IHeaderProps> = ({
   onSearch,
 }) => {
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <Container>
         <div className={styles.content}>
           <div className={styles.imageLogo}>
@@ -18,7 +18,7 @@ const Header: FC<IHeaderProps> = ({
           <SearchInput placeholder="Nunca dejes de buscar" onSearch={onSearch} />
         </div>
       </Container>
-    </div>
+    </header>
   );
 };
 

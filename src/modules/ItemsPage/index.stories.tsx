@@ -19,7 +19,6 @@ ItemsPageDefault.args = {
   items: [
     {
       id: '1',
-      onClick: () => {},
       title: 'Title Value',
       value: 'value text',
       location: 'Capital Federal',
@@ -27,7 +26,6 @@ ItemsPageDefault.args = {
     },
     {
       id: '2',
-      onClick: () => {},
       title: 'Title Value',
       value: 'value text',
       location: 'Capital Federal',
@@ -35,7 +33,6 @@ ItemsPageDefault.args = {
     },
     {
       id: '3',
-      onClick: () => {},
       title: 'Title Value',
       value: 'value text',
       location: 'Capital Federal',
@@ -43,7 +40,6 @@ ItemsPageDefault.args = {
     },
     {
       id: '4',
-      onClick: () => {},
       title: 'Title Value',
       value: 'value text',
       location: 'Capital Federal',

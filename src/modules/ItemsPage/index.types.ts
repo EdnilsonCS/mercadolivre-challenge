@@ -1,5 +1,6 @@
 import { ICardProps } from 'src/components/card/index.types';
 
 export interface IItemsPageProps {
-  items: ICardProps[]
+  items: Omit<ICardProps, 'onClick'>[]
+  onClickItem(id: string): void
 }
