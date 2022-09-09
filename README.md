@@ -9,7 +9,7 @@ Com pesquisa e detalhes sobre dos produto.
 
 ## Executando o projeto
 
-To executar em moto de desenvolvimento
+Para executar em moto de desenvolvimento
 
 ```bash
   yarn start:dev
