@@ -1,44 +1,16 @@
 import { formatCondition } from '../../utils/formatCondition';
+import { getCategoryDetail } from '../category';
 import api from '../index';
-import { IGetDescriptionResult, IGetItemResult, IGetSearchListResult } from './index.types';
-
-export const getSearchList = async (search: string) => {
-  const data = await api.get<IGetSearchListResult>(`/sites/MLA/search?q=${search}&limit=4`);
-
-  const itemsList = data.data.results.map((item) => {
-    return ({
-      id: item.id,
-      title: item.title,
-      value: item.price,
-      location: item.address.state_name,
-      imageUrl: item.thumbnail,
-      isFullShipping: item.shipping?.logistic_type === 'fulfillment',
-    });
-  });
-
-  return itemsList;
-};
+import { IGetDescriptionResultApi, IGetItemResultApi } from './index.types';
 
 export const getDescription = async (id:string) => {
-  const data = await api.get<IGetDescriptionResult>(`/items/${id}/description`);
+  const data = await api.get<IGetDescriptionResultApi>(`/items/${id}/description`);
 
   return data;
 };
 
-export const getCategoryDetail = async (id: string) => {
-  const { data } = await api.get(`/categories/${id}`);
-
-  const dataFormatted = data.path_from_root.map((item: any) => {
-    return item.name;
-  });
-
-  return {
-    data: dataFormatted,
-  };
-};
-
 export const getItem = async (id: string) => {
-  const { data } = await api.get<IGetItemResult>(`/items/${id}`);
+  const { data } = await api.get<IGetItemResultApi>(`/items/${id}`);
   const { data: descriptionDate } = await getDescription(id);
   const { data: categoryData } = await getCategoryDetail(data.category_id);
 

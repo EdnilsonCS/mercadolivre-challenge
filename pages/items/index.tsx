@@ -1,7 +1,7 @@
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
-import { getSearchList } from 'src/api/items';
-import { IGetSearchListResponse } from 'src/api/items/index.types';
+import { getSearchList } from '../../src/api/search';
+import { IGetSearchListResponse } from '../../src/api/search/index.types';
 import BreadCrumbs from '../../src/components/breadcrumbs';
 import Container from '../../src/components/container';
 import ItemsPage from '../../src/modules/ItemsPage';
